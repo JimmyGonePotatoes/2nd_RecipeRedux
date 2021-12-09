@@ -5,9 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Lounge</title>
+    <style>
+        body {
+            background-color: rgb(92, 92, 92);
+        }
+
+
+        .pizza, .line-text {
+            box-sizing: border-box;
+            display: block;
+            height: auto;
+            width: 300px;
+            margin: auto;
+            color: rgb(255, 255, 255);
+            border: 1px solid rgb(255, 255, 255);
+        }
+
+        .title, .line-text {
+            text-align: center;
+            box-sizing: border-box;
+            background-color: white;
+        }
+
+        .line-text {
+            color: black;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Odin Lounge</h1>
-    <a href="../2nd_RecipeRedux/recipes/pizza.html">Make a pizza? Click me!</a>
+    <h1 class="title">Odin Lounge</h1>
+    <div>
+        <img class="pizza" src="../2nd_RecipeRedux/img/pizza3d.gif" alt="pizza">
+        <a class="line-text" href="../2nd_RecipeRedux/recipes/pizza.html"><p>Make a pizza? Click me!</p></a>
+
+    </div>
 </body>
 </html>
