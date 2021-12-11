@@ -7,34 +7,51 @@
     <title>Odin Lounge</title>
     <style>
         body {
-            background-color: rgb(92, 92, 92);
+            background-color: rgb(104, 118, 148);
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
 
 
-        .pizza, .line-text, .ppandj {
+        .pizza, .line-text, .ppandj, .lasagna {
             box-sizing: border-box;
             display: block;
             height: auto;
             width: 300px;
             margin: auto;
             color: rgb(255, 255, 255);
-            border: 1px solid rgb(255, 255, 255);
+            border: 2px solid rgb(255, 255, 255);
         }
 
         .title, .line-text {
             text-align: center;
             box-sizing: border-box;
-            background-color: white;
+            background-color: rgb(55, 173, 252);
+        }
+
+        .title {
+            border: 2px solid rgb(0, 0, 0);
         }
 
         .line-text {
-            color: black;
-            border: 2px solid black;
+            color: rgb(0, 0, 0);
+            border: 2px solid rgb(0, 0, 0);
         }
 
-        .ppandj {
+        .ppandj, .lasagna {
             height: 170px;
-            border: 2px solid purple;
+            border: 2px solid rgb(121, 0, 121);
+        }
+
+        .lasagna {
+            border: 2px solid rgb(255, 33, 33);
+        }
+
+        .endcredit {
+            display: block;
+            box-sizing: border-box;
+            text-align: center;
+            font-family:monospace;
+            color: rgb(255, 255, 255);
         }
 
     </style>
@@ -46,6 +63,10 @@
         <a class="line-text" href="../2nd_RecipeRedux/recipes/pizza.html"><p>Make a pizza? Click me!</p></a>
         <img class="ppandj" src="../2nd_RecipeRedux/img/PBJT.gif" alt="peanut butter and jelly sandwich">
         <a class="line-text" href="../2nd_RecipeRedux/recipes/ppjelly.html"><p>Make a PP&J Sandwich? Click me!</p></a>
+        <img class="lasagna" src="../2nd_RecipeRedux/img/lasagna.gif" alt="lasagna">
+        <a class="line-text" href="../2nd_RecipeRedux/recipes/lasagna.html"><p>Make some Lasagna? Click me!</p></a>
     </div>
+
+    <h5 class="endcredit">Created by JimmyGonePotatoes</h5>
 </body>
 </html>
